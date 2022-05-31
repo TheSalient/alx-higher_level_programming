@@ -7,4 +7,4 @@ def print_last_digit(number):
 	else:
 		number1 = number * 1
 		number2 = number1 % 10
-	return (number2)
+		return (number2)
