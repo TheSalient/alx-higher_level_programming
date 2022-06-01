@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 def uppercase(str):
-    """this function prints a string in uppercase followed by a new line."""
-    for i in str:
-        num = ord(i)
-        if num >= 97 and num <= 122:
-            num = num - 32
-        print("{:c}".format(num), end="")
-    print("".format())
-
-uppercase("best")
-uppercase("Best School 98 Battery street")
+    answer = ''
+    for letter in str:
+        index = ord(letter)
+        if index >= 97 and index <= 122:
+            answer += chr(index - 32)
+        elif index >= 65 and index <= 90:
+            answer += chr(index)
+        else:
+            answer += chr(index)
+    print('{}'.format(answer))
