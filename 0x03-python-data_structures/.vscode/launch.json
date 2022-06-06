@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/lawal_azeez/Desktop/alx-higher_level_programming/0x03-python-data_structures",
+      "program": "/Users/lawal_azeez/Desktop/alx-higher_level_programming/0x03-python-data_structures/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}
