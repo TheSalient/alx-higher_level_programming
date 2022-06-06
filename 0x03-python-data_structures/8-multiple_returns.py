@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    length = len(sentence)
-    firstLetter = sentence[0]
-    lts = [length, firstLetter]
-    if len(lts) == 0:
-        return
-    else:
-        return tuple(lts)
+    if sentence:
+        len_s = len(sentence)
+        return ((len_s, sentence[0]) if len_s != 0 else (None, sentence[0]))
