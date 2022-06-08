@@ -33,4 +33,4 @@ def value(s):
         return 500
     if (s == 'M'):
         return 1000
-    return -1
+    return 0
