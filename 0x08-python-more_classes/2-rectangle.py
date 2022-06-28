@@ -45,6 +45,7 @@ class Rectangle:
         """Calculate the perimeter of the rectangle."""
         if self.width == 0 or self.height == 0:
             return 0
+        else:
             return (self.width + self.height) * 2
 
     def __str__(self):
@@ -52,4 +53,3 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ""
         return ((("#" * self.width) + "\n") * self.height)[:-1]
-    
