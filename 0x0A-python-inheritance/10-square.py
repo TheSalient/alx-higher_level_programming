@@ -12,7 +12,7 @@ class Square(BaseGeometry):
     def __init__(self, size):
         """to valid the size"""
         if size > 0:
-            self.interger_validator("size", size)
+            self.integer_validator("size", size)
             self.__size = size
         super().__init__(size, size)
 
