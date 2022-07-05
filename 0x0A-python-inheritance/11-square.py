@@ -11,9 +11,8 @@ class Square(Rectangle):
     """the square attributes in here."""
     def __init__(self, size):
         """to valid the size"""
-        if size > 0:
-            self.interger_validator("size", size)
-            self.__size = size
+        self.interger_validator("size", size)
+        self.__size = size
         super().__init__(size, size)
 
     def area(self):
