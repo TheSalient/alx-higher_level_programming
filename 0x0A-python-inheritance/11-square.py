@@ -22,8 +22,3 @@ class Square(Rectangle):
     def __str__(self):
         """for str output."""
         return ("[Square] {:d}/{:d}".format(self.__size, self.__size))
-
-s = Square(13)
-
-print(s)
-print(s.area())
